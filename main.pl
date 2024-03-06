@@ -25,6 +25,8 @@ mi_cutline_transform_rules( REK, TERM1, TERM2) :- !
  , TERM2=..[REK, TERM1]
  .
 
+
+% this predicate must be filled with all predicates which may be interpreted by the meta interpreter
 :- dynamic mi_clause_register/1 .
 
 mi_clause_register(mi).
